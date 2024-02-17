@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+#country__container,#price__container,#name__container
+{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1,h2,h3
+{
+    margin-top: 0;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+li
+{
+    margin-bottom: 5px;
+}
+
+button
+{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: peru;
+    color: wheat;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: #0056b3;
+}
+#price__container,#name__container,#country__container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#price__container h2, #name__container h3,#country__container h1 {
+    margin-bottom: 10px;
+}
+#price__list, #name__list,#country__list {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
